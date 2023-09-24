@@ -4,12 +4,12 @@ version = 3
 
 [[package]]
 name = "brainfuck-from-text"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "brainfuck-interpreter",
 ]
 
 [[package]]
 name = "brainfuck-interpreter"
-version = "0.3.2"
-source = "git+https://github.com/TyomoGit/brainfuck-interpreter-rs.git#47d5803c9f5fec0fac3921f6b221070436e561f2"
+version = "0.4.0"
+source = "git+https://github.com/TyomoGit/brainfuck-interpreter-rs.git#221060d8e8e36fb4444f65bc294b723d83efad83"
