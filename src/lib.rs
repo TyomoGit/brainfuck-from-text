@@ -28,5 +28,5 @@ pub fn generate(message: &str) -> String {
         prev = *current;
     }
 
-    result
+    result.replace("<>", "")
 }
